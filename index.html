@@ -1,13 +1,237 @@
----
-layout: presentation
----
+<!DOCTYPE html>
+<html>
+<head>
+	<title>techplain</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<header data-spy="scroll" data-target=".navbar" data-offset="50">
+		<nav class="nav-bar navbar navbar-expand-md bg-dark navbar-dark">
+  <p class="logo navbar-brand"><strong>TechPlain</strong></p>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="nav-words navbar-nav">
+      <li class="nav-items nav-item">
+        <a class="nav-link" href="#home">Home</a>
+      </li>
+      <li class="nav-items nav-item">
+        <a class="nav-link" href="#aboutus">Aboutus</a>
+      </li>
+      <li class="nav-items nav-item">
+        <a class="nav-link" href="#services">Services</a>
+      </li>    
+       <li class="nav-items nav-item">
+        <a class="nav-link" href="#contacts">contacts</a>
+      </li>    
+    </ul>
+  </div>  
+	</nav>
+	<div id="demo home" class="carousel slide" data-ride="carousel">
 
-{% for post in site.posts reversed %}
-	{% include slide.html %}
-	<div class="page-break"></div>
-{% endfor %}
-{% unless site.simple-slideshow %}
-{% if site.overview %}
-<section id="overview" class="step" {% for attr in site.overview-data %} data-{{attr[0]}}="{{attr[1]}}"{% endfor %}></section>
-{% endif %}
-{% endunless %}
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/mac book.jpg" alt="mac book" width="100%" height="auto">
+       <div class="caption1 carousel-caption">
+        <h1>Our purpose is to grow your business</h1>
+        <p><small>Software solutions|Mobile & Web applications|IoT solutions|IT consultations</small></p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/codes.jpeg" class="carousel-op" alt="background" width="100%" height="auto">
+      <div class="caption2 carousel-caption">
+        <h1>Our purpose is to grow your business</h1>
+        <p><small>Software solutions|Mobile & Web applications|IoT solutions|IT consultations</small></p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/tech meeting.jpeg" class="carousel-op" alt="tech meeting" width="100%" height="auto">
+      <div class="caption2 carousel-caption">
+        <h1>Our purpose is to grow your business</h1>
+        <p><small>Software solutions|Mobile & Web applications|IoT solutions|IT consultations</small></p>
+      </div>   
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</header>
+<section>
+	<div id="aboutus" class="container-fluid aboutus">
+		<div class="about">
+			<h2>About Us</h2>
+			<br>
+			<p>TechPlain is a Software Development, Mobile and Web Application solutions company.Our goals is to provide cutting edge and digital transformation solutions to propel businesses into the future.
+				<br>
+				<br>
+
+            We also aim at helping businesses meet their software development needs faster to enable them achieve business goals, gain competitive advantage, win new marketplaces, get more customers and move forward.
+            <br>
+            <br>
+
+            Our partnership provides businesses with the peace of mind to focused on what really matters to their business.</p>
+		</div>
+	</div>
+</section>
+<section>
+		<div class="container-fluid">
+      <div class="code">
+			<img src="images/programmer.jpeg" class="prog">
+      <div>
+      <h5>WHAT IS WEBSITE DESIGN AND DEVELOPMENT?</h5>
+				<p><small> Website design and development involves gathering information, planning, design layout, content creation, coding, testing and maintenance of your website. Your website will contain information about you, or your company, educational institution, government or organization.</small></p>
+				</div>
+</div>
+</div>
+</section>
+<section>
+  <div id="services" class="container">
+    <div class="services">
+    <h1>Services</h1>
+     <div class="container">
+     <div class="ul row">
+      <div class="litext col-sm-4"><p>TechPlain offers services on Web development, Software solutions, Mobile applications, IoT solutions, IT consultations.We also offer</p></div> 
+    <div class="li1 col-sm-3"><h3>Bulk SMS</h3>
+  <p>Reach all your customers conviniently via sms</p>
+  <a href="https://techplain.io/bulk-sms.html" class="button">Learn more</a></div>
+    <div class="li2 col-sm-3"><h3>Payments</h3>
+  <p>Aggregate mobile payments and send money effortlessly</p>
+  <a href="https://techplain.io/payments.html"  class="button">Learn more</a></div>
+    <div class="li3 col-sm-3"><h3>Contacts</h3>
+  <p>Database builder,contacts manager, and more</p>
+  <a href class="button">Learn more</a></div>
+    <div class="li4 col-sm-3"><h3>Surveys</h3>
+  <p>Get feedback or collect data from your customers</p>
+  <a href="https://techplain.io/surveys.html"  class="button">Learn more</a></div>
+    <div class="li5 col-sm-3"><h3>Rewards</h3>
+  <p>send airtime,data bundles or electricity tokens</p>
+  <a href="https://techplain.io/rewards.html"  class="button">Learn more</a></div>
+    <div class="li6 col-sm-3"><h3>Short Codes</h3>
+  <p>Engage your customers with 2-way text messaging</p>
+  <a href="https://techplain.io/shortcodes.html"  class="button">Learn more</a></div>
+    <div class="li7 col-sm-3"><h3>USSDs</h3>
+  <p>Build highly engaging services for your customers</p>
+  <a href="https://techplain.io/ussd.html"  class="button">Learn more</a></div>
+    <div class="li8 col-sm-3">  <h3>Whats App</h3>
+  <p>Interact with your customers via whatsapp</p>
+  <p>coming soon....</p></div>
+  </div>
+   </div>
+  </div>
+</div>
+</section>
+<section>
+  <div class="container">
+    <div class="clients">
+         <h1> Clients</h1>
+    <div class="row">
+    <div class="img-fluid column-sm-2">
+    <img src="images/vaspro-client-blueband@2x.png" alt="blueband" style="width:45%; ">
+</div>
+<div class="img-fluid column-sm-2">
+    <img src="images/vaspro-client-clarette@2x.png" alt="clarette" style="width:45%; ">
+</div>
+ <div class="img-fluid column-sm-2">
+    <img src="images/vaspro-client-cocacola@2x.png" alt="cocacola" style="width:45%">
+ </div>
+ <div class="img-fluid column-sm-2">
+    <img src="images/vaspro-client-easygym@2x.png" alt="cocacola" style="width:45%">
+ </div>
+  <div class="img-fluid column-sm-2">
+    <img src="images/vaspro-client-envirofit.png" alt="cocacola" style="width:60%">
+</div>
+  <div class="img-fluid column-sm-2">
+    <img src="images/vaspro-client-finberry@2x.png" alt="cocacola" style="width:45%">
+</div>
+
+  <div class="img-fluid column-sm-2">
+    <img src="images/vaspro-client-kingdomsacco@2x.png" alt="cocacola" style="width:45%">
+</div>
+ <div class="img-fluid column-sm-2">
+    <img src="images/vaspro-client-peppinos@2x.png" alt="cocacola" style="width:45%">
+</div>
+  <div class="img-fluid column-sm-2">
+    <img src="images/vaspro-client-psk@2x.png" alt="cocacola" style="width:45%">
+</div>
+ <div class="img-fluid column-sm-2">
+    <img src="images/vaspro-client-springboard@2x.png" alt="cocacola" style="width:45%">
+</div>
+ <div class="img-fluid column-sm-2">
+    <img src="images/vaspro-client-tembo@2x.png" alt="cocacola" style="width:45%">
+</div>
+     <div class="img-fluid column-sm-2">
+    <img src="images/equitel.png" alt="cocacola" style="width:40%">
+</div>
+  </div>
+</div>
+</div>
+</section>
+<footer>
+    <div class="container enquire">
+    <h3><u>For enqueries</u></h3>
+  </div>
+  <form class="input1" action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+   <input type="text" id="lname" name="lname"><br><br>
+    <label for="subject">Subject:</label>
+   <input type="text" id="subject" name="subject"><br><br>
+   <textarea>Message</textarea>
+  <input type="submit" value="Submit">
+</form>
+<div class="container contactsus">
+  <h3><u>Get in touch</u></h3>
+  <p class="touch">We are the best at what we offer get in touch with us via our online platforms.Comment like and share<br><br>You can also visit us at our offices<br><br><br>
+  <small>we are at karlson Towers 4th floor</small></p>
+  
+  <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+<div>
+<button class="emailus"><b>Call +254 7090183222</b></button>
+</div>
+<div>
+<button class="emailus"><b>Email us</b></button>
+</div>
+</div>
+<div>
+<a href class="get"><u>Get started</u></a>
+</div>
+  <hr class="hr">
+<div class="terms">
+<a href="https://techplain.io/terms.html" class="terms">Terms & conditions</a>
+</div>
+<div class="end">
+<p class="end">TechPlain (KE) Limited, Plot No. LR 209/2167, Crescent Lane, Parklands, Kenya operates the TechPlain brand and authorized and regulated by the Communications Authority of Kenya.</p>
+</div>
+
+
+</footer>
+
+</body>
+</html>
