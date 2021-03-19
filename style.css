@@ -1,0 +1,397 @@
+body{
+	margin-left:0px;
+	margin-right:0px;
+}
+.nav-bar{
+	position:relative;
+	background-color:#004d00;
+	width:100%;
+	color:#A98400;
+
+}
+.logo{
+	color:#A98400;
+	font-size:32px;
+	font-family:arial;
+	letter-spacing:7px;
+	margin-top:10px;
+	margin-left:100px;
+	top:50px;
+}
+.nav-items{
+	margin-left:90px;
+	font-size:20px;
+	font-weight:normal;
+}
+.nav-words{
+	margin-left:200px;
+	top:30px;
+
+}
+ .carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+  .carousel-op {
+    opacity:0.6;
+  }
+  .caption1{
+  	color:white;
+  	text-align:center;
+  	word-spacing:0px;
+    top:250px;
+    line-height:30px;
+  	font-size:1.7vw;
+  	font-weight:normal;
+  }
+   .caption2{
+  	color:black;
+  	text-align:center;
+  	word-spacing:0px;
+    line-height:30px;
+  	top:250px;
+  	font-size:1.8vw;
+  	font-weight:bold;
+  }
+  .aboutus{
+position: absolute;
+height: 350px;
+background: #1A2E00;
+}
+.about{
+  position:absolute;
+  text-align:center;
+  left:100px;
+  right:100px;
+  top:50px;
+  color:white;
+  font-size:1.2vw;
+  text-align:center;
+  font-weight:normal;
+}
+.prog{
+width:30%;
+float:left;
+height:auto;
+text-align:center;
+margin-right:40px;
+}
+.code{
+
+position: absolute;
+align-items:center;
+margin-top:500px;
+margin-left:120px;
+margin-right:120px;
+line-height:30px;
+font-family: arial;
+font-style: normal;
+font-size:1.5vw;
+color: black;
+}
+.services{
+	margin-top:800px;
+	text-align:center;
+	float:center;
+	width:100%;
+	height:auto;
+}
+.ul{
+position: absolute;
+margin-right:0px;
+margin-left:0px;
+text-align:center;
+}
+.litext{
+	margin-right:10px;
+	margin-top:60px;
+	font-size:18px;
+}
+.li1{
+	color:white;
+	background-color:black;
+	width:30%;
+	height:auto;
+	margin-right:40px;
+	margin-top:40px;
+	line-height:30px;
+}
+.li2{
+	color:white;
+	background-color: #696969;
+	width:30%;
+	height:auto;
+	margin-right:40px;
+	margin-top:40px;
+	line-height:30px;
+}
+.li3{
+	color:white;
+	background-color: #455368;
+	width:30%;
+	height:auto;
+	margin-top:40px;
+	margin-left:50px;
+	margin-right:60px;
+	line-height:30px;
+}
+.li4{
+	color:white;
+	background-color:#6D7080;
+	width:30%;
+	height:auto;
+	margin-right:40px;
+	margin-top:40px;
+	line-height:30px;
+}
+
+.li5{
+	color:white;
+	background-color:#5B6165;
+	width:30%;
+	height:auto;
+	margin-right:40px;
+	margin-top:40px;
+	line-height:30px;
+}
+.li6{
+	color:white;
+	background-color:#B5B6B8;
+	width:30%;
+	height:auto;
+	margin-left:50px;
+	margin-right:60px;
+	margin-top:40px;
+	line-height:30px;
+}
+.li7{
+	color:white;
+	background-color:#0099cc;
+	width:30%;
+	height:auto;
+	margin-right:40px;
+	margin-top:40px;
+	line-height:30px;
+}
+.li8{
+	color:white;
+	background-color:#7D87A3;
+	width:30%;
+	height:auto;
+	margin-right:40px;
+	margin-top:40px;
+	line-height:30px;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 8px 20px;
+  border-radius:10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.clients{
+  position: absolute;
+text-align: center;
+top:2600px;
+width:85%;
+height:auto;
+left:120px;
+height:auto;
+margin-left:0px;
+font-style: normal;
+font-weight:bold;
+font-size: 48px;
+line-height: 100px;
+ 
+}
+
+
+footer{
+  position: absolute;
+width: 100%;
+height:750px;
+left: 0px;
+top: 3041px;
+font-family:arial;
+background: black;
+opacity: 0.8;
+}
+.enquire{
+position: absolute;
+width: 15%;
+height: auto;
+left: 105px;
+top:30px;
+font-family: arial;
+font-style: normal;
+font-weight: 500;
+font-size: 3vw;
+line-height: 47px;
+text-align: left;
+
+color: #FFFFFF;
+}
+.input1{
+position: absolute;
+width:31%;
+height: auto;
+left: 103px;
+top: 80px;
+color:white;
+border-radius: 6px;
+}
+
+ input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #5B6165;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:#B5B6B8;
+}
+
+.input {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  top:139px;
+}
+textarea{
+  width: 100%;
+height: auto;
+border-radius: 6px;
+font-family: arial;
+}
+.get{
+  position: absolute;
+left: 100px;
+top:570px;
+font-family: arial;
+font-style: normal;
+font-size:1.2vw;
+line-height: 47px;
+text-align: left;
+
+color: #FFFFFF;
+}
+.contactsus{
+  position: absolute;
+ top:30px;
+width: 32%;
+height: auto;
+left: 700px;
+font-family: arial;
+font-style: normal;
+font-weight: 500;
+font-size:18px;
+line-height: 30px;
+text-align: left;
+color: white;
+}
+.touch{
+  font-weight:normal;
+  margin-top:80px;
+  text-align: left;
+  line-height:25px;
+}
+.fa {
+  padding: 18px;
+  font-size:22px;
+  width:60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 7px 4px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background:grey;
+  color: white;
+}
+
+.fa-twitter {
+  background: grey;
+  color: white;
+}
+
+.fa-linkedin {
+  background:grey;
+  color: white;
+}
+
+.fa-youtube {
+  background:grey;
+  color: white;
+}
+
+.fa-instagram {
+  background:grey;
+  color: white;
+}
+.emailus{
+  background-color:#C4C4C4;
+  font-size:15px;
+  border-radius:30px;
+  padding:10px;
+  margin-top:10px;
+  line-height:30px;
+}
+.terms{
+  width:70%;
+  text-decoration:none;
+  font-weight:bold;
+  font-family:arial;
+  font-size:1.2vw;
+  color:white;
+  margin-left:50px;
+  margin-top:20px;
+  text-align:left;
+}
+hr{
+  width:80%;
+  margin-left:100px;
+  margin-right:200px;
+  margin-top:650px;
+  border-top: 2px solid white;
+}
+@media only screen and (max-width: 1440px) {
+  hr{}
+.end{
+  width:70%;
+   text-decoration:none;
+  font-weight:small;
+  font-family:arial;
+  font-size:1vw;
+  color:white;
+  margin-left:240px;
+  margin-right:95px;
+  margin-top:-20px;
+  text-align:left;
+}
